@@ -1,0 +1,49 @@
+:root{
+    --ana-renk: black;
+    --vurgu-renk: red;
+    --link-renk: rgb(68, 36, 7);
+}
+head{
+   background-color: aqua;
+}
+.ust-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: rgb(189, 91, 15);
+}
+.ust-menu ul{
+    display: flex;
+    gap: 24px;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.ust menu a{
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #d1c8bc;
+}
+h1
+{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:xx-large; color: rgb(68, 36, 7);}
+
+.class1 a { 
+    font-size: larger;
+    
+}
+
+a {color: var(--link-renk)}
+
+nav a:hover {color: var(--vurgu-renk)}
+
+table {background-color:dodgerblue;}
+
+p {font-family: Arial, Helvetica, sans-serif; color: black; font-size: large; font-style: normal;}
+
+.vurgu { background-color: aqua;}
