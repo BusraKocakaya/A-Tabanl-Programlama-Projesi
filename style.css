@@ -47,3 +47,11 @@ table {background-color:dodgerblue;}
 p {font-family: Arial, Helvetica, sans-serif; color: black; font-size: large; font-style: normal;}
 
 .vurgu { background-color: aqua;}
+
+.menu-cesitleri{
+    display: flex;
+    gap: 20px;
+}
+.menu-cesitleri article {
+    width: 250px;
+}
